@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--style css-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>weather App</title>
+</head>
+<!--search section-->
+<body onload="wetherScreen()">
+    <section class="centered">
+        <h1 id="header">5 Days Weather Forecast</h1>
+        <p id="inputContainer">EnterCity <input type="text" id="cityInput"></p>
+        <button type="button" onclick="GetInfor()">Click Me</button>        
+        <h2 id="cityName">London</h2>
+        </section>
+        <br>
+        
+        <Section class="now">
+        <!--<h4>london 2022/09/06</h4>-->
+        <div>33c</div>
+        <div>coudy</div>
+        <div>Humidity</div>
+        <div>wind speed</div>
+        
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+      <!-- Start column -->
+   
+    
+    <div id = "Container">
+        <div id="icon-card">    
+            <div class = "cards">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="image/123.png" class="imgClass" id="img1"></div>
+                <p class="minValues" id="day1Min">sunny</p>
+                <p class="maxValues" id="day1Max">6.00am</p>
+            </div>
+            <div class = "cards">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="image/123.png" class="imgClass" id="img2"></div>
+                <p class="minValues" id="day2Min">cloudy</p>
+                <p class="maxValues" id="day2Max">4.44pm</p>
+            </div>
+            <div class = "cards">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="image/123.png" class="imgClass" id="img3"></div>
+                <p class="minValues" id="day3Min">rainy</p>
+                <p class="maxValues" id="day3Max">10.00am</p>
+            </div>
+            <div class = "cards">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="image/123.png" class="imgClass" id="img4"></div>
+                <p class="minValues" id="day4Min">night</p>
+                <p class="maxValues" id="day4Max">12.30am</p>
+            </div>
+            <div class = "cards">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="image/123.png" class="imgClass" id="img5"></div>
+                <p class="minValues" id="day5Min">rainy</p>
+                <p class="maxValues" id="day5Max">5.00am</p>
+            </div>
+        </div>
+    </div>
+  
+<!---script.js-->
+        <script src="js/script.js"></script>
+
+
+</body>
+</html>
